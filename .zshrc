@@ -3,11 +3,6 @@
 # autojump - jump to directories with j or jc for child or jo to open in file manager
 # zsh-autosuggestions - Suggestions based on your history
 
-# Initial Setup
-# mkdir -p "$HOME/.zsh"
-# git clone https://github.com/sindresorhus/pure.git "$HOME/.zsh/pure"
-# Setup Alias in $HOME/.zsh/aliasrc
-
 # Enable colors and change prompt:
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
