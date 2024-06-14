@@ -40,4 +40,4 @@ source $HOME/zsh-completions/zsh-completions.plugin.zsh
 #PATH
 export PATH="$HOME/.local/bin:$PATH"
 
-neofetch
+fastfetch
